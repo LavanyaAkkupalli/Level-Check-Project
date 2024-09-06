@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Level2 Document</title>
+  <style>
+    body {
+
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: yellow;
+    }
+    .youtube-video {
+  aspect-ratio: 16 / 6;
+  width: 100%;
+    }
+    table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+  </style>
+
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="#Home">Home</a>
+    <a href="#About">About</a>
+    <a href="#services">Services</a>
+    <a href="#Contact">Contact</a>
+  </div>
+  <div style="background-color: aliceblue;text-align: center;">
+    <h2>Sign Up for Updates</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+    
+      <input type="submit" value="Submit" >
+    </form>
+  </div>
+  <h2>My Favorite Video</h2>
+  <iframe class="youtube-video" src="https://www.youtube.com/embed/5kW0RtcJZC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h2>Product List & Price</h2>
+  <div style="overflow-x:auto;">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+     
+       
+      </tr>
+      <tr>
+        <td>Candies</td>
+        <td>1$</td>
+        
+      </tr>
+      <tr>
+        <td>Cookies</td>
+        <td>3$</td>
+       
+      </tr>
+      <tr>
+        <td>Fruites</td>
+        <td>10$</td>
+        
+      </tr>
+    </table>
+  </div>
+
+
+</body>
+
+</html>
